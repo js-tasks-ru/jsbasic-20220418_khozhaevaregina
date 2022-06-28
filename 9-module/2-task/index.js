@@ -19,7 +19,7 @@ export default class Main {
     this.renderCarousel();
     this.renderRibbon();
     this.renderStepSlider();
-    this.renderCartIcon()
+    this.renderCartIcon();
 
     this.cart = new Cart(this.cartIcon);
 
